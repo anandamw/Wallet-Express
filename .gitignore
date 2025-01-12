@@ -1,2 +1,17 @@
-node_modules
-publics/storages
+# Ignore node_modules directory
+node_modules/
+
+# Ignore specific public storage directories
+public/storages/
+
+# Optional: Ignore log files
+*.log
+
+# Optional: Ignore environment files
+.env
+
+# Optional: Ignore OS and editor specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
